@@ -15,17 +15,14 @@
         background: url("./banner.jpg") center center no-repeat;
         height: 500px;
         padding: 20px;
-
-    }
-
-    .about-sign-in {
+        
+        .about-sign-in {
         height: 80px;
         width: 100%;
         text-align: right;  
         font-family: Roboto;
         font-size: 12px;
     }
-
     .about, .sign-in{
         text-decoration: none;
         display: inline-block;
@@ -33,24 +30,23 @@
         padding: 10px 15px;
         text-transform: uppercase;
     }
-
     .sign-in {
         margin-right: 60px;
         margin-left: 25px;
         border: 2px solid #8bc34a;
         border-radius: 100px;
         color: #8bc34a;
-        text-align:center;
+        text-align:center; 
     }
-
+    
     .logo{
         background: url("./hapoERP.png") center center no-repeat;
         height: 100px;
         margin-top: 40px;
     }
 
-
-    .left, .right, .center {
+    .content-center {
+        .left, .right, .center {
         display: inline-block;
         width: 33%;
         text-align: center;
@@ -62,37 +58,35 @@
         display: block;
         font-size: 20px;
     }
-
-    img {
-        width: 50px;
-        height: 50px;
     }
 
-    .text{
-        text-align: center;
-        margin-top: 30px;
-        color: green;
-    }
-
-    /* .text span {
-        color: red;
-    } */
+    .text {
+            text-align: center;
+            color: green;
+        }
 
     .btn-start-now{
         text-align: center;
-        margin-top: 20px;
-    }
-
-
-    .banner .btn-start-now button {
+        button {
         text-transform: capitalize;
         margin-top: 5px;
         padding: 10px 15px;
         margin-top: 25px;
-        border: 1px solid black;
+        border: 1px solid green;
         border-radius: 20px;
         /* Clicking the button will display a hand icon */
         cursor: pointer;
         background: #8bc34a;
         color: white;
     }
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    }
+
+
+
